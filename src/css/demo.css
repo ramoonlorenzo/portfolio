@@ -1,0 +1,15 @@
+* {
+  list-style: none;
+}
+
+.container-informacoes img {
+  background-color: #333333;
+}
+
+.container-foto img {
+  width: 500px;
+}
+
+.container-projetos img {
+  width: 500px;
+}
