@@ -11,49 +11,51 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="./src/css/demo.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
 
     <title>Portfólio - Ramon Lorenzo</title>
   </head>
 
   <body>
-    <header id="home" class="cabecalho">
+    <header class="cabecalho">
+      <a href="#"><h1 class="logo">RL</h1></a>
       <nav class="menu">
         <ul>
-          <li><a href="#sobre">Ramon Lorenzo</a></li>
-          <li><a href="#projetos">Meus projetos</a></li>
+          <li>
+            <a href="#projetos">Meus projetos</a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <section id="sobre">
+    <section class="sobre">
       <div class="container-informacoes">
-        <h1>Olá! Sou Ramon Lorenzo</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut optio unde
-          iusto esse, tempore illum. Tempore sed quod ex repellat. Dignissimos
-          unde consectetur voluptate blanditiis architecto, asperiores
-          laboriosam libero autem.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
-          accusamus consequuntur eos ipsum, sunt vel nostrum! Ab maxime,
-          consectetur velit maiores ex ad aut rem neque illo iste culpa. Quos.
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid
-          autem, qui, temporibus nobis, vitae quos libero nemo excepturi beatae
-          esse harum ullam iusto modi minima possimus minus ratione? Pariatur,
-          voluptate.
-        </p>
-        <ul>
+        <h1>Olá!<br />Sou Ramon Lorenzo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+        <div class="container-foto-mobile">
+          <div class="foto sombra-interna">
+            <img
+              class="img-mobile"
+              src="./src/images/ramoonlorenzo.jpeg"
+              alt="Foto de perfil"
+            />
+          </div>
+        </div>
+
+        <ul class="redes-sociais">
           <li>
             <a
               href="mailto:ramoonlorenzo@gmail.com"
               title="Ir para o Email"
               target="_blank"
               class="icon-email"
-              ><img src="./src/images/email.svg" alt="Ícone do Email"
+              ><img src="./src/images/email-icon.svg" alt="Ícone do Email"
             /></a>
           </li>
           <li>
@@ -62,7 +64,7 @@
               title="Ir para o GitHub"
               target="_blank"
               class="icon-github"
-              ><img src="./src/images/github-logo.svg" alt="Ícone do GitHub"
+              ><img src="./src/images/github-icon.svg" alt="Ícone do GitHub"
             /></a>
           </li>
           <li>
@@ -72,27 +74,31 @@
               target="_blank"
               class="icon-linked-in"
               ><img
-                src="./src/images/linkedin-logo.svg"
+                src="./src/images/linkedin-icon.svg"
                 alt="Ícone do LinkedIn"
             /></a>
           </li>
         </ul>
       </div>
 
-      <div class="container-foto">
-        <img
-          class="foto"
-          src="./src/images/ramoonlorenzo.jpeg"
-          alt="Foto de perfil"
-        />
+      <div class="container-foto-desktop">
+        <div class="foto sombra-interna">
+          <img
+            class="img-desktop"
+            src="./src/images/ramoonlorenzo.jpeg"
+            alt="Foto de perfil"
+          />
+        </div>
       </div>
     </section>
 
-    <section id="projetos">
-      <h2>Projetos</h2>
+    <section id="projetos" class="projetos">
+      <h2 class="projetos-titulo">Meus Projetos</h2>
+
       <div class="container-projetos">
         <div class="projeto ativo">
           <img src="./src/images/yelp-camp.png" alt="Projeto YelpCamp" />
+
           <h3>YelpCamp</h3>
           <div class="informacoes-projetos">
             <ul>
@@ -113,11 +119,13 @@
             </ul>
           </div>
         </div>
+
         <div class="projeto ativo">
           <img
             src="https://via.placeholder.com/500x500.png/a7a5a5/000000?Text=500x500"
             alt="Projeto 2"
           />
+
           <h3>Projeto 2</h3>
           <div class="informacoes-projetos">
             <ul>
@@ -140,5 +148,7 @@
         <a href="#home">Voltar</a>
       </button>
     </aside>
+
+    <script src="./src/js/index.js"></script>
   </body>
 </html>
