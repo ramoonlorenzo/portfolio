@@ -134,12 +134,12 @@ body {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   justify-content: center;
 }
 
 .projetos .container-projetos .projeto {
-  max-width: 260px;
+  max-width: 350px;
   max-height: 500px;
   position: relative;
   display: none;
