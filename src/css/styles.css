@@ -4,10 +4,12 @@ html {
 }
 
 body {
-  background-color: #282828;
+  background: linear-gradient(150deg, #264653, #49869f, #e0e1dd);
+  background-size: 180% 180%;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
   max-width: 1120px;
+  animation: gradient-animation 5s ease infinite;
 }
 
 .cabecalho {
@@ -18,20 +20,19 @@ body {
 }
 
 .cabecalho .logo {
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   border-radius: 50px;
-  height: 65px;
-  width: 65px;
-  text-decoration: underline;
+  height: 50px;
+  width: 300px;
   text-align: center;
-  line-height: 55px;
+  line-height: 45px;
   font-family: "Raleway", sans-serif;
   transition: 0.3s ease-in-out;
 }
 
 .cabecalho a:hover .logo {
-  color: #9443d8;
-  border: 2px solid #9443d8;
+  color: #2a9d8f;
+  border: 1px solid #2a9d8f;
 }
 
 .cabecalho .menu ul li a {
@@ -42,7 +43,7 @@ body {
 }
 
 .cabecalho .menu li a:hover {
-  background-color: #9443d8;
+  background-color: #2a9d8f;
   border-radius: 50px;
 }
 
@@ -103,7 +104,7 @@ body {
 }
 
 .sobre .foto.sombra-interna {
-  background: linear-gradient(to right, #8a35c8, #18c063, #00eea2);
+  background: linear-gradient(to right, #e9c46a, #f4a261, #e76f51);
   background-size: 180%, 180%;
   animation: gradient-animation 5s ease infinite;
 }
@@ -139,10 +140,13 @@ body {
 }
 
 .projetos .container-projetos .projeto {
-  max-width: 350px;
-  max-height: 500px;
+  max-height: 370px;
+  max-width: 370px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   position: relative;
   display: none;
+  overflow: hidden;
 }
 
 .projetos .container-projetos .projeto.ativo {
@@ -206,7 +210,7 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-  background-color: #9443d8;
+  background-color: #2a9d8f;
   transition: 0.3s ease-in-out;
 }
 
