@@ -20,19 +20,23 @@ body {
 }
 
 .cabecalho .logo {
-  border: 1px solid #fff;
-  border-radius: 50px;
-  height: 50px;
-  width: 300px;
+  height: 60px;
+  width: 60px;
   text-align: center;
-  line-height: 45px;
+  justify-content: center;
+  align-content: center;
   font-family: "Raleway", sans-serif;
+  text-decoration: underline;
   transition: 0.3s ease-in-out;
 }
 
 .cabecalho a:hover .logo {
-  color: #2a9d8f;
-  border: 1px solid #2a9d8f;
+  transform: scale(1.1);
+}
+
+.cabecalho .menu ul {
+  display: flex;
+  gap: 10px;
 }
 
 .cabecalho .menu ul li a {
@@ -42,14 +46,13 @@ body {
   transition: 0.3s ease-in-out;
 }
 
-.cabecalho .menu li a:hover {
-  background-color: #2a9d8f;
-  border-radius: 50px;
+.cabecalho .menu ul li a:hover {
+  border-bottom: 1px solid #fff;
 }
 
 .sobre {
   display: flex;
-  min-height: calc(100vh - 125px);
+  min-height: calc(100vh - 120px);
   align-items: center;
   gap: 50px;
   justify-content: space-between;
@@ -73,7 +76,7 @@ body {
 .sobre .container-informacoes p {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .sobre .container-informacoes .redes-sociais {
@@ -83,12 +86,11 @@ body {
 
 .sobre .container-informacoes .redes-sociais li a img {
   border: 1px solid #fff;
-  border-radius: 10px;
+  border-radius: 15px;
   width: 50px;
   height: 50px;
   padding: 10px;
   text-align: center;
-  font-size: 26px;
   transition: 0.3s ease-in-out;
 }
 
@@ -96,7 +98,6 @@ body {
   transform: scale(1.1);
 }
 
-.sobre .container-foto-mobile .foto,
 .sobre .container-foto-desktop .foto {
   max-width: 450px;
   margin: auto;
@@ -109,26 +110,23 @@ body {
   animation: gradient-animation 5s ease infinite;
 }
 
-.sobre .container-foto-mobile div img,
 .sobre .container-foto-desktop div img {
   width: 100%;
   border-radius: 50%;
 }
 
-.sobre .container-informacoes .container-foto-mobile div img {
-  display: none;
-}
-
 .projetos {
-  padding: 70px 0;
+  padding: 10px 0;
+  margin: 50px 0;
 }
 
 .projetos .projetos-titulo {
   text-align: center;
-  padding: 60px 0;
+  padding: 10px 0;
   font-size: 45px;
   font-weight: 500;
   text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .projetos .container-projetos {
@@ -147,6 +145,7 @@ body {
   position: relative;
   display: none;
   overflow: hidden;
+  box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.6);
 }
 
 .projetos .container-projetos .projeto.ativo {
@@ -196,7 +195,7 @@ body {
 .projetos .btn-mostrar-projetos {
   background: none;
   border: 1px solid #fff;
-  border-radius: 15px;
+  border-radius: 10px;
   color: #fff;
   width: 180px;
   padding: 20px;
@@ -206,12 +205,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .projetos .btn-mostrar-projetos:hover {
   background-color: #2a9d8f;
-  transition: 0.3s ease-in-out;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 .projetos .btn-mostrar-projetos.remover {
