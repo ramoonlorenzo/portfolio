@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background: linear-gradient(150deg, #264653, #49869f, #e0e1dd);
+  background: linear-gradient(150deg, #344e41, #588157, #dad7cd);
   background-size: 180% 180%;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
@@ -105,7 +105,7 @@ body {
 }
 
 .sobre .foto.sombra-interna {
-  background: linear-gradient(to right, #e9c46a, #f4a261, #e76f51);
+  background: linear-gradient(to right, #a3b18a, #588157, #3a5a40);
   background-size: 180%, 180%;
   animation: gradient-animation 5s ease infinite;
 }
@@ -156,7 +156,7 @@ body {
 }
 
 .projetos .container-projetos .projeto h3 {
-  background-color: #040203;
+  background-color: #232323;
   width: 100%;
   padding-left: 20px;
   padding-bottom: 10px;
@@ -166,7 +166,7 @@ body {
 }
 
 .projetos .container-projetos .projeto .informacoes-projetos {
-  background-color: #040203;
+  background-color: #232323;
   position: absolute;
   top: 0;
   width: 100%;
@@ -179,7 +179,6 @@ body {
 
 .projetos .container-projetos .projeto:hover .informacoes-projetos {
   opacity: 0.8;
-  background-color: #000;
 }
 
 .projetos .container-projetos .projeto .informacoes-projetos ul {
@@ -194,6 +193,7 @@ body {
 
 .projetos .btn-mostrar-projetos {
   background: none;
+  background-color: #a3b18a;
   border: 1px solid #fff;
   border-radius: 10px;
   color: #fff;
@@ -209,7 +209,6 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-  background-color: #2a9d8f;
   border-radius: 50px;
   cursor: pointer;
 }
