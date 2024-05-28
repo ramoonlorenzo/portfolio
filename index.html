@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,6 +22,12 @@
     <header class="cabecalho">
       <a href="#"><h1 class="logo">RL</h1></a>
       <nav class="menu">
+        <input id="menu-hamburguer" type="checkbox" />
+
+        <label for="menu-hamburguer">
+          <div class="menu"><span class="hamburguer"></span></div>
+        </label>
+
         <ul>
           <li>
             <a href="#sobre">Sobre</a>
@@ -51,6 +57,7 @@
               ><img src="./src/images/email-icon.svg" alt="Ícone do Email"
             /></a>
           </li>
+
           <li>
             <a
               href="https://github.com/ramoonlorenzo"
@@ -60,6 +67,7 @@
               ><img src="./src/images/github-icon.svg" alt="Ícone do GitHub"
             /></a>
           </li>
+
           <li>
             <a
               href="https://www.linkedin.com/in/ramoonlorenzo"
@@ -81,6 +89,111 @@
             src="./src/images/ramoonlorenzo.jpeg"
             alt="Foto de perfil"
           />
+        </div>
+      </div>
+    </section>
+
+    <section class="sobre-mim section" id="sobre">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="informacoes-sobre-mim">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <div class="botoes">
+              <a
+                target="_blank"
+                href="/src/arquivos/cv.pdf"
+                class="botao outer-shadow"
+                >Veja meu CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+          </div>
+        </div>
+
+        <div class="container-habilidades">
+          <div class="informacoes javascript">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              placeat ipsam suscipit consequuntur ex reiciendis alias accusamus
+              quo consectetur. Consequatur sequi ab id expedita facilis
+              cupiditate quia atque dignissimos possimus!
+            </p>
+          </div>
+
+          <div class="informacoes html">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              placeat ipsam suscipit consequuntur ex reiciendis alias accusamus
+              quo consectetur. Consequatur sequi ab id expedita facilis
+              cupiditate quia atque dignissimos possimus!
+            </p>
+          </div>
+
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              placeat ipsam suscipit consequuntur ex reiciendis alias accusamus
+              quo consectetur. Consequatur sequi ab id expedita facilis
+              cupiditate quia atque dignissimos possimus!
+            </p>
+          </div>
+
+          <div class="informacoes github">
+            <div class="logo">
+              <i class="devicon devicon-github-original" id="github"></i>
+            </div>
+            <h3>GitHub</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              placeat ipsam suscipit consequuntur ex reiciendis alias accusamus
+              quo consectetur. Consequatur sequi ab id expedita facilis
+              cupiditate quia atque dignissimos possimus!
+            </p>
+          </div>
+
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon devicon-git-plain" id="git"></i>
+            </div>
+            <h3>Git</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              placeat ipsam suscipit consequuntur ex reiciendis alias accusamus
+              quo consectetur. Consequatur sequi ab id expedita facilis
+              cupiditate quia atque dignissimos possimus!
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -219,6 +332,41 @@
 
       <button class="btn-mostrar-projetos">Mostrar mais</button>
     </section>
+
+    <footer class="footer">
+      <h3>Me envie uma mensagem!</h3>
+      <ul class="redes-sociais">
+        <li>
+          <a
+            href="mailto:ramoonlorenzo@gmail.com"
+            title="Ir para o Email"
+            target="_blank"
+            class="icon-email"
+            ><img src="./src/images/email-icon.svg" alt="Ícone do Email"
+          /></a>
+        </li>
+
+        <li>
+          <a
+            href="https://github.com/ramoonlorenzo"
+            title="Ir para o GitHub"
+            target="_blank"
+            class="icon-github"
+            ><img src="./src/images/github-icon.svg" alt="Ícone do GitHub"
+          /></a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.linkedin.com/in/ramoonlorenzo"
+            title="Ir para o LinkedIn"
+            target="_blank"
+            class="icon-linked-in"
+            ><img src="./src/images/linkedin-icon.svg" alt="Ícone do LinkedIn"
+          /></a>
+        </li>
+      </ul>
+    </footer>
 
     <script src="./src/js/index.js"></script>
   </body>
