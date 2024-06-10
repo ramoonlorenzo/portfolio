@@ -15,7 +15,13 @@
   <body>
     <header class="cabecalho">
       <a href="#"><h1 class="logo">RL</h1></a>
-      <nav class="menu">
+      <nav>
+        <input id="menu-hamburguer" type="checkbox" />
+
+        <label for="menu-hamburguer">
+          <div class="menu"><span class="hamburguer"></span></div>
+        </label>
+
         <ul>
           <li>
             <a href="#sobre">Sobre</a>
@@ -167,7 +173,7 @@
       <h2 class="projetos-titulo">Meus Projetos</h2>
 
       <div class="container-projetos">
-        <div class="projeto ativo">
+        <div class="projeto">
           <img src="./src/assets/images/yelp-camp.png" alt="Projeto YelpCamp" />
           <h3>YelpCamp</h3>
           <div class="informacoes-projetos">
@@ -192,7 +198,7 @@
           </div>
         </div>
 
-        <div class="projeto ativo">
+        <div class="projeto">
           <img
             src="./src/assets/images/ping-pong-score-keeper.png"
             alt="Projeto Ping Pong Score Keeper"
