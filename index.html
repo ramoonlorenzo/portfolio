@@ -4,13 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-
+    <link rel="stylesheet" href="./src/css/variables.css" />
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/styles.css" />
     <link rel="stylesheet" href="./src/css/responsive.css" />
@@ -22,12 +16,6 @@
     <header class="cabecalho">
       <a href="#"><h1 class="logo">RL</h1></a>
       <nav class="menu">
-        <input id="menu-hamburguer" type="checkbox" />
-
-        <label for="menu-hamburguer">
-          <div class="menu"><span class="hamburguer"></span></div>
-        </label>
-
         <ul>
           <li>
             <a href="#sobre">Sobre</a>
@@ -54,7 +42,9 @@
               title="Ir para o Email"
               target="_blank"
               class="icon-email"
-              ><img src="./src/images/email-icon.svg" alt="Ícone do Email"
+              ><img
+                src="./src/assets/icons/email-icon.svg"
+                alt="Ícone do Email"
             /></a>
           </li>
 
@@ -64,7 +54,9 @@
               title="Ir para o GitHub"
               target="_blank"
               class="icon-github"
-              ><img src="./src/images/github-icon.svg" alt="Ícone do GitHub"
+              ><img
+                src="./src/assets/icons/github-icon.svg"
+                alt="Ícone do GitHub"
             /></a>
           </li>
 
@@ -75,7 +67,7 @@
               target="_blank"
               class="icon-linked-in"
               ><img
-                src="./src/images/linkedin-icon.svg"
+                src="./src/assets/icons/linkedin-icon.svg"
                 alt="Ícone do LinkedIn"
             /></a>
           </li>
@@ -86,7 +78,7 @@
         <div class="foto sombra-interna">
           <img
             class="img-desktop"
-            src="./src/images/ramoonlorenzo.jpeg"
+            src="./src/assets/images/ramoonlorenzo.jpeg"
             alt="Foto de perfil"
           />
         </div>
@@ -96,14 +88,29 @@
     <section class="sobre" id="sobre">
       <div class="container-informacoes">
         <h2 class="sobre-titulo">Sobre mim</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>
+          Me encontrei na área da programação no final de 2022. Desde então,
+          decidi me dedicar a uma transição de carreira.
+        </p>
+        <p>
+          Buscando diversas maneiras de alcançar meu objetivo de ingressar no
+          mercado de tecnologia como Desenvolvedor Web Full Stack.
+        </p>
+        <p>
+          Há pouco mais de 1 ano venho desenvolvendo conhecimentos e projetos
+          através de cursos online, projetos práticos, participação em
+          iniciativas open-source e no desenvolvimento de competências
+          específicas.
+        </p>
+        <p>
+          Em suma, estou sempre em busca de novos desafios e oportunidades de
+          crescimento pessoal e profissional.
+        </p>
 
         <button class="btn-cv">
-          <a target="_blank" href="./src/assets/cv.pdf">Veja meu CV</a>
+          <a target="_blank" href="./src/assets/documents/resume.pdf"
+            >Veja meu CV</a
+          >
         </button>
       </div>
     </section>
@@ -161,7 +168,7 @@
 
       <div class="container-projetos">
         <div class="projeto ativo">
-          <img src="./src/images/yelp-camp.png" alt="Projeto YelpCamp" />
+          <img src="./src/assets/images/yelp-camp.png" alt="Projeto YelpCamp" />
           <h3>YelpCamp</h3>
           <div class="informacoes-projetos">
             <ul>
@@ -185,7 +192,7 @@
 
         <div class="projeto ativo">
           <img
-            src="./src/images/ping-pong-score-keeper.png"
+            src="./src/assets/images/ping-pong-score-keeper.png"
             alt="Projeto Ping Pong Score Keeper"
           />
           <h3>Ping Pong Score Keeper</h3>
@@ -209,9 +216,9 @@
           </div>
         </div>
 
-        <div class="projeto ativo">
+        <div class="projeto">
           <img
-            src="./src/images/pokemon-pokedex.png"
+            src="./src/assets/images/pokemon-pokedex.png"
             alt="Projeto Pokemon Pokedex"
           />
           <h3>Pokemon Pokedex</h3>
@@ -235,9 +242,9 @@
           </div>
         </div>
 
-        <div class="projeto ativo">
+        <div class="projeto">
           <img
-            src="./src/images/stardew-valley-trailer.png"
+            src="./src/assets/images/stardew-valley-trailer.png"
             alt="Projeto Stardew Valley Trailer"
           />
           <h3>Stardew Valley Trailer</h3>
@@ -263,7 +270,7 @@
 
         <div class="projeto">
           <img
-            src="./src/images/pricing-panel.png"
+            src="./src/assets/images/pricing-panel.png"
             alt="Projeto Pricing Panel"
           />
           <h3>Pricing Panel</h3>
@@ -301,7 +308,9 @@
               title="Ir para o Email"
               target="_blank"
               class="icon-email"
-              ><img src="./src/images/email-icon.svg" alt="Ícone do Email"
+              ><img
+                src="./src/assets/icons/email-icon.svg"
+                alt="Ícone do Email"
             /></a>
           </li>
 
@@ -311,7 +320,9 @@
               title="Ir para o GitHub"
               target="_blank"
               class="icon-github"
-              ><img src="./src/images/github-icon.svg" alt="Ícone do GitHub"
+              ><img
+                src="./src/assets/icons/github-icon.svg"
+                alt="Ícone do GitHub"
             /></a>
           </li>
 
@@ -322,7 +333,7 @@
               target="_blank"
               class="icon-linked-in"
               ><img
-                src="./src/images/linkedin-icon.svg"
+                src="./src/assets/icons/linkedin-icon.svg"
                 alt="Ícone do LinkedIn"
             /></a>
           </li>
