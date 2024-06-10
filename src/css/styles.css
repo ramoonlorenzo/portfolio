@@ -9,7 +9,7 @@ body {
   font-family: var(--font-primary);
   margin: 0 auto;
   max-width: 1120px;
-  animation: gradient-animation 5s ease infinite;
+  animation: gradient-animation 10s ease infinite;
 }
 
 .cabecalho {
@@ -107,7 +107,7 @@ body {
 .home .foto.sombra-interna {
   background: var(--gradient-img);
   background-size: 180%, 180%;
-  animation: gradient-animation 5s ease infinite;
+  animation: gradient-animation 10s ease infinite;
 }
 
 .home .container-foto-desktop div img {

@@ -23,5 +23,12 @@
     #a3b18a,
     #dad7cd
   );
-  --gradient-img: linear-gradient(to right, #a3b18a, #588157, #3a5a40);
+  --gradient-img: linear-gradient(
+    to right,
+    #dad7cd,
+    #a3b18a,
+    #588157,
+    #3a5a40,
+    #344e41
+  );
 }
