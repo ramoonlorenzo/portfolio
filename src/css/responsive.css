@@ -20,6 +20,10 @@
     padding: 0 30px;
   }
 
+  .habilidades .container-habilidades {
+    padding: 0 30px;
+  }
+
   .projetos .container-projetos {
     padding: 0 30px;
   }
@@ -57,6 +61,20 @@
     text-align: center;
     padding: 20px;
     display: block;
+  }
+
+  .habilidades .container-habilidades {
+    grid-template-columns: 300px 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home .container-foto-desktop div img {
+    max-width: 400px;
+  }
+
+  .habilidades .container-habilidades {
+    grid-template-columns: 300px;
   }
 }
 
