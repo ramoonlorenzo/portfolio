@@ -176,6 +176,7 @@ body {
   text-align: center;
   padding: 10px 0;
   margin: 30px 0;
+  min-height: calc(100vh);
 }
 
 .sobre .sobre-titulo {
@@ -183,7 +184,7 @@ body {
   font-size: 45px;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .sobre .container-informacoes {
@@ -195,7 +196,8 @@ body {
 .sobre .container-informacoes p {
   font-family: var(--font-secondary);
   font-size: 24px;
-  margin-bottom: 20px;
+  padding: 10px;
+  margin: 20px 0;
 }
 
 .sobre .container-informacoes button {
@@ -220,6 +222,7 @@ body {
   text-align: center;
   padding: 10px 0;
   margin: 30px 0;
+  min-height: calc(100vh);
 }
 
 .habilidades .habilidades-titulo {
@@ -227,10 +230,12 @@ body {
   font-size: 45px;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .habilidades .container-habilidades {
+  background: var(--gradient-section);
+  border-radius: 5px;
   display: grid;
   grid-template-columns: 300px 300px 300px;
   justify-content: center;
@@ -238,8 +243,12 @@ body {
   gap: 15px;
   letter-spacing: 2px;
   padding: 0 15px;
-  max-height: 500px;
+  max-height: 650px;
   overflow-y: scroll;
+}
+
+.habilidades .container-habilidades::-webkit-scrollbar {
+  display: none;
 }
 
 .habilidades .container-habilidades .habilidade {
@@ -270,6 +279,7 @@ body {
 .projetos {
   padding: 10px 0;
   margin: 30px 0;
+  min-height: calc(100vh);
 }
 
 .projetos .projetos-titulo {
@@ -278,7 +288,7 @@ body {
   font-size: 45px;
   font-weight: 500;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .projetos .container-projetos {
