@@ -200,22 +200,28 @@ body {
   margin: 20px 0;
 }
 
-.sobre .container-informacoes button {
+.sobre .container-informacoes .btn-cv {
   background: none;
   background-color: var(--color-tertiary);
   border: 1px solid var(--color-white);
   border-radius: 10px;
   font-size: 20px;
   font-weight: 600;
-  padding: 20px;
-  margin: 20px 0 auto;
   transition: 0.3s ease-in-out;
+  height: 65px;
   width: 180px;
 }
 
-.sobre .container-informacoes button:hover {
+.sobre .container-informacoes .btn-cv:hover {
   cursor: pointer;
   border-radius: 50px;
+}
+
+.sobre .container-informacoes .btn-cv a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
 }
 
 .habilidades {
@@ -366,6 +372,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   transition: 0.3s ease-in-out;
+  height: 65px;
   width: 180px;
   text-transform: capitalize;
 }
