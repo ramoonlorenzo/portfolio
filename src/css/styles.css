@@ -210,6 +210,7 @@ body {
   transition: 0.3s ease-in-out;
   height: 65px;
   width: 180px;
+  margin-top: 20px;
 }
 
 .sobre .container-informacoes .btn-cv:hover {
@@ -247,9 +248,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  letter-spacing: 2px;
   padding: 0 15px;
-  max-height: 650px;
+  max-height: 620px;
   overflow-y: scroll;
 }
 
@@ -267,7 +267,7 @@ body {
 }
 
 .habilidades .container-habilidades .habilidade .habilidade-logo i {
-  font-size: 60px;
+  font-size: 80px;
 }
 
 .habilidades .container-habilidades .habilidade h3 {
@@ -283,8 +283,9 @@ body {
 }
 
 .projetos {
-  min-height: calc(100vh - 181px);
+  min-height: calc(100vh - 283px);
   padding: 10px 0;
+  margin: 30px 0;
 }
 
 .projetos .projetos-titulo {
@@ -396,7 +397,13 @@ body {
 .footer .container-informacoes h3 {
   font-family: var(--font-secondary);
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding: 10px 0px;
+}
+
+.footer .container-informacoes h4 {
+  font-family: var(--font-secondary);
+  font-size: 18px;
   padding: 10px 0px;
 }
 
@@ -405,6 +412,7 @@ body {
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .footer .container-informacoes .redes-sociais li a img {
