@@ -266,6 +266,8 @@ body {
   padding: 0 15px;
   max-height: 620px;
   overflow-y: scroll;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .habilidades .container-habilidades::-webkit-scrollbar {
@@ -299,12 +301,11 @@ body {
 
 .projetos {
   padding: 10px 0;
-  margin: 30px 0;
 }
 
 @media (orientation: landscape) {
   .projetos {
-    min-height: calc(100vh - 283px);
+    min-height: calc(100vh - 273px);
   }
 }
 

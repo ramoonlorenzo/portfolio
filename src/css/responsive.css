@@ -45,6 +45,12 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .habilidades .container-habilidades {
+    max-width: 760px;
+  }
+}
+
 @media (max-width: 900px) {
   .cabecalho .menu {
     display: block;
@@ -73,6 +79,12 @@
     text-align: center;
     padding: 20px;
     display: block;
+  }
+}
+
+@media (max-width: 836px) {
+  .habilidades .container-habilidades {
+    max-width: 370px;
   }
 }
 
