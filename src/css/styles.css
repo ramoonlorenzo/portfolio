@@ -108,11 +108,16 @@ body {
 }
 
 .home {
-  min-height: calc(100vh - 120px);
   display: flex;
   align-items: center;
   gap: 50px;
   justify-content: space-between;
+}
+
+@media (orientation: landscape) {
+  .home {
+    min-height: calc(100vh - 120px);
+  }
 }
 
 .home .container-informacoes {
@@ -173,10 +178,15 @@ body {
 }
 
 .sobre {
-  min-height: calc(100vh);
   text-align: center;
   padding: 10px 0;
   margin: 30px 0;
+}
+
+@media (orientation: landscape) {
+  .sobre {
+    min-height: calc(100vh);
+  }
 }
 
 .sobre .sobre-titulo {
@@ -226,10 +236,15 @@ body {
 }
 
 .habilidades {
-  min-height: calc(100vh);
   text-align: center;
   padding: 10px 0;
   margin: 30px 0;
+}
+
+@media (orientation: landscape) {
+  .habilidades {
+    min-height: calc(100vh);
+  }
 }
 
 .habilidades .habilidades-titulo {
@@ -283,9 +298,14 @@ body {
 }
 
 .projetos {
-  min-height: calc(100vh - 283px);
   padding: 10px 0;
   margin: 30px 0;
+}
+
+@media (orientation: landscape) {
+  .projetos {
+    min-height: calc(100vh - 283px);
+  }
 }
 
 .projetos .projetos-titulo {
